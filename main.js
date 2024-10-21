@@ -133,51 +133,6 @@ btnHab.addEventListener("click", () => (input2.disabled = false));
 btnDes.addEventListener("click", () => (input2.disabled = true));
 
 //Ejercicio 9
-// const btnGuardarCorreo = document.getElementById("btnGuardarCorreo");
-
-// const getDataInput =()=>{
-//     const resultado = localStorage.getItem("datos");
-//     if(resultado){
-//       console.log("dato anterior:");
-//       console.log(JSON.parse(resultado));
-//     }else{
-//       console.log("los datos no existen");
-//     }
-//     console.log("nuevo dato creado:");
-//     const correo = document.getElementById("correo").value;
-//     localStorage.setItem("datos", JSON.stringify({
-//      correo
-//     }));
-
-//     console.log({
-//       correo
-//     });
-//     const l1 =  document.getElementById("Acambiar");
-//     l1.textContent = correo; 
-// };
-// btnGuardarCorreo.addEventListener("click", ()=>{
-//   getDataInput();
-
-// });
-
-// const btnEliminarCorreo = document.getElementById("btnEliminarCorreo");
-
-// btnEliminarCorreo.addEventListener("click", ()=>{
-//   const result = localStorage.getItem("datos");
-//   if(result){
-//     console.log(JSON.parse(result));
-    
-//     localStorage.clear();
-//     console.log("eliminado");
-//     const l2 =  document.getElementById("Acambiar");
-//     l2.textContent = ""; 
-//   }else{
-//     console.log("los datos no existen");
-//   }
-// });
-
-
-//Ejercicio 1: Formulario que guarda un correo en localStorage
 document.addEventListener('DOMContentLoaded', () => {
   const correo = document.getElementById('correo');
   const guardarBoton = document.getElementById('svBtn');
