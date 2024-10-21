@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <h1 id="h1element">TP Javascript</h1>
+
+    <!--Ejercicio 7.1-->
+    <div>
+      <p id="parrafo1">Este es el primer párrafo.</p>
+      <p id="parrafo2">Este es el segundo párrafo.</p>
+      <p id="parrafo3">Este es el tercer párrafo.</p>
+
+      <button id="button">Cambiar color a azul</button>
+    </div>
+    <hr>
+    <!--Ejercicio 7.2-->
+    <form>
+      <label>Ingresa un texto:</label>
+      <input type="text" id="input" />
+      <button id="formButton" type="button">Mostrar Alerta</button>
+    </form>
+    <!--Ejercicio 8.1-->
+    <ul id="lista">
+      <li id="l1">Elemento 1</li>
+      <li id="l2">Elemento 2</li>
+      <li id="l3">Elemento 3</li>
+      <li id="l4">Elemento 4</li>
+    </ul>
+
+    <!-- Ejercicio 8.2 -->
+    <form>
+       <h2>Ejercicio 8.2 Campo de texto y botones</h2>
+      <input placeholder="Ingrese algo" type="text" id="input2" />
+      <button id="hab" type="button">Habilitar Input</button>
+      <button id="deshab" type="button">Deshabilitar Input</button>
+    </form>
+
+    <!-- Ejercicio 9 LocalStorage -->
+    <!-- <form>
+      <label >Correo Electrónico:</label>
+      <input type="text" id ="correo" placeholder = "Example@email.com">
+      <button id = "btnGuardarCorreo">Guardar Correo</button>
+      <div>
+
+      <div>
+        <label id="Acambiar">Correo guardado:</label>
+      </div>
+      <button id ="btnEliminarCorreo">Eliminar Correo Guardado</button>
+    </div>
+    </form> -->
+
+    <section id="localStorage">
+      <h1>9. LocalStorage</h1>
+
+      <!-- Formulario con un campo para el guardado y borrado local de un correo -->
+      <h2><b>Ejercicio</b>: Guardado en LocalStorage</h2>
+      <div>
+        <form>
+          <label for="correos"></label>
+          <input type="email" id="correo" placeholder="ejemplo@ejemplo.com">
+          <button type="button" id="svBtn">Guardar correo</button>
+          <button type="reset" id="delBtn">Borrar correo guardado</button>
+        </form>
+      </div>
+
+    
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
